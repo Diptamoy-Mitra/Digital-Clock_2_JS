@@ -19,11 +19,13 @@ body{
    background-size: cover;
 }
 .clock{
-  background-color:#997cdf;
+  background-color:#816db0;
   padding:10px 20px;
   display:flex;
-  border:5px solid #9b8db0;
+  border:2px solid #9b8db0;
   margin-right:70px;
+  color:white;
+   
 }
 h1{
   margin-left:120px;
