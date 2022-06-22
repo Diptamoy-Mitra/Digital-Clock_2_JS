@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background:url("weather.png");
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+.clock{
+  background-color:#997cdf;
+  padding:10px 20px;
+  display:flex;
+  border:5px solid #9b8db0;
+  margin-right:70px;
+}
+h1{
+  margin-left:120px;
+  font-size:35px;
+  color:#f5f0f0;
+}
